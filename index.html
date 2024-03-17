@@ -3,67 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fixad_width_layout</title>
     <style>
         body{
             width: 960px;
-            margin: auto;
-            text-align: center;
-         
+            margin:auto;
         }
-        #content {
-            overflow: auto;
-            height: 100%;
+        #content{
+            overflow:auto;
+            margin: 100%;
         }
-        #nav, #feature, #footer{
-background-color: #efefef;
-padding: 10px;
-margin: 10px;
+        #nav, feature, #footer{
+            background-color: cadetblue;
+            padding:10px;
+            margin: 10px ;
 
         }
-        .column1, column2, column3 {
-            background-color: #efefef;
+        .column1,.column2,.column3{
+            background-color: read;
             width: 300px;
             float: left;
-            margin: 10px;
-
+            margin:10px;
         }
         li{
-            display: inline;
-            padding: 5px;
+            display:inline;
+            padding:5px;
         }
     </style>
 </head>
 <body>
-   <div id="heafder">
-    <h1>Logo</h1>
-    <div id="nav">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+    <h1>FIXAD_WIDTH_LAYOUT:</h1>
+    <div id="header">
+        <h1>Logo</h1>
+        <div id="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
     </div>
-   </div> 
-   <div id="content">
-    <div id="feature">
-        <p>Feature</p>
+    <div id="content">
+        <div id="feature">
+            <p>feature</p>
+        </div>
+        <div class="article column1">
+            <p>Colum One</p>
+        </div>
+        <div class="article column2">
+            <p>Colum two</p>
+        </div>
+        <div class="article column3">
+            <p>Colum Three</p>
+        </div>
+        <div id="footer">
+
+        </div>
     </div>
-    <div class="article column1">
-        <p>Column one</p>
-    </div>
-    <div class="article column2">
-        <p>Column Two</p>
-    </div>
-    <div class="article column3">
-        <p>Column Three</p>
-    </div>
-<div id="footer">
-    <p>&copy: Copyright 2024</p>
-</div>
-   </div>
-   <a href="Fixad_width.html">Fixad_width_Layout</a>
 </body>
 </html>
